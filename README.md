@@ -1,2 +1,2 @@
 # anti-trendyol
-Trendyol reklamlarından sıkılanlar için trendyol reklamlarını kapatan chrome eklentisi
+Trendyol reklamlarından sıkılanlar için trendyol reklam engelleyicisi
