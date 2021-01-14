@@ -1,0 +1,36 @@
+{
+  "name": "AntiTrendyol",
+  "version": "0.1",
+  "manifest_version": 2,
+  "description": "Trendyol'u ve diğer reklamları engelleyen eklenti.",
+  "browser_action": {
+    "browser_style": true,
+    "default_icon": "enabled.png"
+  },
+  "background": {
+    "scripts": [
+      "default_filters.js",
+      "block.js",
+      "imagedata.js"
+    ]
+  },
+  "options_ui": {
+    "page": "options.html",
+    "chrome_style": true
+  },
+  "icons": {
+    "16": "enabled.png",
+    "48": "enabled_48.png"
+  },
+  "permissions": [
+    "http://*/*",
+    "https://*/*",
+    "ws://*/*",
+    "wss://*/*",
+    "webRequest",
+    "webRequestBlocking",
+    "storage",
+    "privacy"
+  ],
+  "incognito": "spanning"
+}
